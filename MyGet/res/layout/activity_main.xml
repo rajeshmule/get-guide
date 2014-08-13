@@ -1,19 +1,1129 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context="com.rajesh.myget.MainActivity"
-    >
+    android:layout_margin="2dp"
+    tools:context="com.rajesh.myget.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="461dp"
+            android:layout_height="455dp"
+            android:layout_marginBottom="0.5dp"
+            android:background="#FFFFFF"
             android:orientation="vertical" >
 
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/git" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="git - the simple guide"
+                android:textSize="30sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="just a simple guide for getting started with git."
+                android:typeface="serif" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/arrow" />
         </LinearLayout>
-       
-    
-    
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="455dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#0080FF"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvtitle1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="75dp"
+                android:gravity="center"
+                android:text="setup"
+                android:textSize="35sp"
+                 />
+
+            <Button
+                android:id="@+id/bosx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="7dp"
+                android:background="@android:drawable/toast_frame"
+                android:text="Download git for OSX"
+                android:textColor="#0080FF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bwin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="7dp"
+                android:background="@android:drawable/toast_frame"
+                android:text="Download git for Windows"
+                android:textColor="#0080FF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/blin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="7dp"
+                android:background="@android:drawable/toast_frame"
+                android:text="Download git for Linux"
+                android:textColor="#0080FF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="455dp"
+        	android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#084B8A"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvtitle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="75dp"
+                android:layout_marginTop="75dp"
+                android:gravity="center"
+                android:text="create a new repository"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                 />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="create a new directory, open it and perform a"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="30dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git init"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="to create a new git repository."
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvtitle3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="75dp"
+                android:layout_marginTop="75dp"
+                android:gravity="center"
+                android:text="checkout a repository"
+                android:textSize="35sp"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="create a working copy of a local repository by running the command"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git clone /path/to/repository"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="when using a remote server, your command will be"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="75dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git clone username@host:/path/to/repository"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="547dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#4C0D08"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvtitle4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="75dp"
+                android:layout_marginTop="75dp"
+                android:gravity="center"
+                android:text="workflow"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                 />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:text="your local repository consists of three &apos;trees&apos; maintained by git. the first one is your Working Directory which holds the actual files. the second one is the Index which acts as a staging area and finally the HEAD which points to the last commit you&apos;ve made."
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trees" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#B40404"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvtitle5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="75dp"
+                android:layout_marginTop="75dp"
+                android:gravity="center"
+                android:textSize="35sp"
+                android:textColor="#FFFFFF"
+                android:text="add &amp; commit"
+                 />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="You can propose changes (add it to the Index) using"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git add &lt;filename>"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git add *"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="This is the first step in the basic git workflow. To actually commit these changes use"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git commit -m &quot;Commit message&quot;"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Now the file is committed to the HEAD, but not in your remote repository yet."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="622dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#F5BCA9"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvtitle6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="75dp"
+                android:layout_marginTop="75dp"
+                android:gravity="center"
+                android:text="pushing changes"
+                android:textSize="35sp"
+                 />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Your changes are now in the HEAD of your local working copy. To send those changes to your remote repository, execute"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git push origin master"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Change master to whatever branch you want to push your changes to. 
+
+If you have not cloned an existing repository and want to connect your repository to a remote server, you need to add it with"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git remote add origin &lt;server>"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Now you are able to push your changes to the selected remote server"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="956dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#000000"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvtitle7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="75dp"
+                android:layout_marginTop="75dp"
+                android:gravity="center"
+                android:text="branching"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Branches are used to develop features isolated from each other. The master branch is the &quot;default&quot; branch when you create a repository. Use other branches for development and merge them back to the master branch upon completion."
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/branches" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="create a new branch named &apos;feature_x&apos; and switch to it using"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git checkout -b feature_x"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="switch back to master"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git checkout master"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="and delete the branch again"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git branch -d feature_x"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="a branch is not available to others unless you push the branch to your remote repository"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git push origin &lt;branch>"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="841dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#D8D8D8"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvtitle8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="75dp"
+                android:layout_marginTop="75dp"
+                android:gravity="center"
+                android:text="update &amp; merge"
+                android:textSize="35sp"
+               />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="to update your local repository to the newest commit, execute"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git pull"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="in your working directory to fetch and merge remote changes.
+to merge another branch into your active branch (e.g. master), use"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git merge &lt;branch>"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="in both cases git tries to auto-merge changes. Unfortunately, this is not always possible and results in conflicts. You are responsible to merge those conflicts manually by editing the files shown by git. After changing, you need to mark them as merged with"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git add &lt;filename>"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="before merging changes, you can also preview them by using"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git diff &lt;source_branch> &lt;target_branch>"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#5858FA"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvtitle9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="75dp"
+                android:layout_marginTop="75dp"
+                android:gravity="center"
+                android:text="tagging"
+                android:textSize="35sp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="it&apos;s recommended to create tags for software releases. this is a known concept, which also exists in SVN. You can create a new tag named 1.0.0 by executing"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git tag 1.0.0 1b2e1d63ff"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="the 1b2e1d63ff stands for the first 10 characters of the commit id you want to reference with your tag. You can get the commit id by looking at the..."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="954dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#FBEFFB"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvtitle10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="75dp"
+                android:layout_marginTop="75dp"
+                android:gravity="center"
+                android:text="log"
+                android:textSize="35sp"
+                 />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="in its simplest form, you can study repository history using.."
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git log"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="You can add a lot of parameters to make the log look like what you want. To see only the commits of a certain author:"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git log --author=bob"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="To see a very compressed log where each commit is one line:"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git log --pretty=oneline"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Or mabe you want to see an ASCII art tree of all the branches, decorated with the names of tags and branches: "
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git log --graph --oneline --decorate --all"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="See only which files have changed: "
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git log --name-status"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="These are just a few of the possible parameters you can use. For more, see"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git log --help"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="742dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#F3E2A9"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvtitle11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="75dp"
+                android:layout_marginTop="75dp"
+                android:gravity="center"
+                android:text="replace local changes"
+                android:textSize="35sp"
+                 />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="In case you did something wrong (which for sure never happens ;) you can replace local changes using the command"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git checkout -- &lt;filename>"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="this replaces the changes in your working tree with the last content in HEAD. Changes already added to the index, as well as new files, will be kept."
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="If you instead want to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it like this"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git fetch origin"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git reset --hard origin/master"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="658dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#0B2161"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvtitle12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="75dp"
+                android:layout_marginTop="75dp"
+                android:gravity="center"
+                android:text="useful hints"
+                android:textSize="35sp"
+                android:textColor="#FFFFFF"
+              />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="built-in git GUI"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="gitk"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="use colorful git output"
+                android:textSize="15sp" 
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git config color.ui true"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="show log on just one line per commit"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git config format.pretty oneline"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="use interactive adding"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@android:drawable/toast_frame"
+                android:gravity="center"
+                android:text="git add -i"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#F5BCA9"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvtitle13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="75dp"
+                android:layout_marginTop="75dp"
+                android:gravity="center"
+                android:text="links &amp; resources"
+                android:textSize="35sp"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="graphical clients"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="GitX (L) (OSX, open source)
+Tower (OSX)
+Source Tree (OSX &amp; Windows, free)
+GitHub for Mac (OSX, free)
+GitBox (OSX, App Store)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="guides"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Git Community Book
+Pro Git
+Think like a git
+GitHub Help
+A Visual Git Guide"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="get help"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="25dp"
+                android:gravity="center"
+                android:text="Git User Mailing List
+#git on irc.freenode.net
+http://rogerdudler.github.io/git-guide/"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
 
 </ScrollView>
