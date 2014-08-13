@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="2dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
     tools:context="com.rajesh.myget.MainActivity" >
 
     <LinearLayout
@@ -68,8 +69,7 @@
                 android:layout_marginTop="75dp"
                 android:gravity="center"
                 android:text="setup"
-                android:textSize="35sp"
-                 />
+                android:textSize="35sp" />
 
             <Button
                 android:id="@+id/bosx"
@@ -114,7 +114,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="455dp"
-        	android:layout_marginBottom="1dp"
+            android:layout_marginBottom="1dp"
             android:layout_marginTop="1dp"
             android:background="#084B8A"
             android:orientation="vertical" >
@@ -128,8 +128,7 @@
                 android:gravity="center"
                 android:text="create a new repository"
                 android:textColor="#FFFFFF"
-                android:textSize="35sp"
-                 />
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -176,8 +175,7 @@
                 android:layout_marginTop="75dp"
                 android:gravity="center"
                 android:text="checkout a repository"
-                android:textSize="35sp"
-                />
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -219,7 +217,6 @@
                 android:text="git clone username@host:/path/to/repository"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp" />
-
         </LinearLayout>
 
         <LinearLayout
@@ -239,8 +236,7 @@
                 android:gravity="center"
                 android:text="workflow"
                 android:textColor="#FFFFFF"
-                android:textSize="35sp"
-                 />
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -275,10 +271,9 @@
                 android:layout_marginBottom="75dp"
                 android:layout_marginTop="75dp"
                 android:gravity="center"
-                android:textSize="35sp"
-                android:textColor="#FFFFFF"
                 android:text="add &amp; commit"
-                 />
+                android:textColor="#FFFFFF"
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -287,8 +282,8 @@
                 android:layout_margin="5dp"
                 android:gravity="center"
                 android:text="You can propose changes (add it to the Index) using"
-                android:textSize="15sp"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -321,8 +316,8 @@
                 android:layout_margin="5dp"
                 android:gravity="center"
                 android:text="This is the first step in the basic git workflow. To actually commit these changes use"
-                android:textSize="15sp"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -343,8 +338,8 @@
                 android:layout_margin="5dp"
                 android:gravity="center"
                 android:text="Now the file is committed to the HEAD, but not in your remote repository yet."
-                android:textSize="15sp"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -363,8 +358,7 @@
                 android:layout_marginTop="75dp"
                 android:gravity="center"
                 android:text="pushing changes"
-                android:textSize="35sp"
-                 />
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -437,8 +431,7 @@ If you have not cloned an existing repository and want to connect your repositor
                 android:gravity="center"
                 android:text="branching"
                 android:textColor="#FFFFFF"
-                android:textSize="35sp"
-                />
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -561,8 +554,7 @@ If you have not cloned an existing repository and want to connect your repositor
                 android:layout_marginTop="75dp"
                 android:gravity="center"
                 android:text="update &amp; merge"
-                android:textSize="35sp"
-               />
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -666,8 +658,8 @@ to merge another branch into your active branch (e.g. master), use"
                 android:layout_marginTop="75dp"
                 android:gravity="center"
                 android:text="tagging"
-                android:textSize="35sp"
-                android:textColor="#FFFFFF"/>
+                android:textColor="#FFFFFF"
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -676,8 +668,8 @@ to merge another branch into your active branch (e.g. master), use"
                 android:layout_margin="5dp"
                 android:gravity="center"
                 android:text="it&apos;s recommended to create tags for software releases. this is a known concept, which also exists in SVN. You can create a new tag named 1.0.0 by executing"
-                android:textSize="15sp"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -698,8 +690,8 @@ to merge another branch into your active branch (e.g. master), use"
                 android:layout_margin="5dp"
                 android:gravity="center"
                 android:text="the 1b2e1d63ff stands for the first 10 characters of the commit id you want to reference with your tag. You can get the commit id by looking at the..."
-                android:textSize="15sp"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -718,8 +710,7 @@ to merge another branch into your active branch (e.g. master), use"
                 android:layout_marginTop="75dp"
                 android:gravity="center"
                 android:text="log"
-                android:textSize="35sp"
-                 />
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -864,8 +855,7 @@ to merge another branch into your active branch (e.g. master), use"
                 android:layout_marginTop="75dp"
                 android:gravity="center"
                 android:text="replace local changes"
-                android:textSize="35sp"
-                 />
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -947,9 +937,8 @@ to merge another branch into your active branch (e.g. master), use"
                 android:layout_marginTop="75dp"
                 android:gravity="center"
                 android:text="useful hints"
-                android:textSize="35sp"
                 android:textColor="#FFFFFF"
-              />
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -958,8 +947,8 @@ to merge another branch into your active branch (e.g. master), use"
                 android:layout_margin="5dp"
                 android:gravity="center"
                 android:text="built-in git GUI"
-                android:textSize="15sp"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -980,8 +969,8 @@ to merge another branch into your active branch (e.g. master), use"
                 android:layout_margin="5dp"
                 android:gravity="center"
                 android:text="use colorful git output"
-                android:textSize="15sp" 
-                android:textColor="#FFFFFF"/>
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -1002,8 +991,8 @@ to merge another branch into your active branch (e.g. master), use"
                 android:layout_margin="5dp"
                 android:gravity="center"
                 android:text="show log on just one line per commit"
-                android:textSize="15sp"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -1024,8 +1013,8 @@ to merge another branch into your active branch (e.g. master), use"
                 android:layout_margin="5dp"
                 android:gravity="center"
                 android:text="use interactive adding"
-                android:textSize="15sp"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -1042,9 +1031,10 @@ to merge another branch into your active branch (e.g. master), use"
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="500dp"
+            android:layout_height="700dp"
             android:layout_marginBottom="1dp"
             android:layout_marginTop="1dp"
+            android:layout_weight="1.02"
             android:background="#F5BCA9"
             android:orientation="vertical" >
 
@@ -1056,8 +1046,7 @@ to merge another branch into your active branch (e.g. master), use"
                 android:layout_marginTop="75dp"
                 android:gravity="center"
                 android:text="links &amp; resources"
-                android:textSize="35sp"
-                />
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -1066,19 +1055,47 @@ to merge another branch into your active branch (e.g. master), use"
                 android:layout_margin="5dp"
                 android:gravity="center"
                 android:text="graphical clients"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/textView2"
+            <Button
+                android:id="@+id/b1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:gravity="center"
-                android:text="GitX (L) (OSX, open source)
-Tower (OSX)
-Source Tree (OSX &amp; Windows, free)
-GitHub for Mac (OSX, free)
-GitBox (OSX, App Store)"
+                android:layout_height="30dp"
+                android:background="#00000000"
+                android:text="GitX (L) (OSX, open source)"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#00000000"
+                android:text="Tower (OSX)"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#00000000"
+                android:text="Source Tree (OSX &amp; Windows, free)"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#00000000"
+                android:text="GitHub for Mac (OSX, free)"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#00000000"
+                android:text="GitBox (OSX, App Store)"
                 android:textSize="15sp" />
 
             <TextView
@@ -1088,20 +1105,50 @@ GitBox (OSX, App Store)"
                 android:layout_margin="5dp"
                 android:gravity="center"
                 android:text="guides"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/textView2"
+            <Button
+                android:id="@+id/b6"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:gravity="center"
-                android:text="Git Community Book
-Pro Git
-Think like a git
-GitHub Help
-A Visual Git Guide"
+                android:layout_height="30dp"
+                android:background="#00000000"
+                android:text="Git Community Book"
                 android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#00000000"
+                android:text="Pro Git"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#00000000"
+                android:text="Think like a git"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#00000000"
+                android:text="GitHub Help"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#00000000"
+                android:text="A Visual Git Guide"
+                android:textSize="15sp" />
+
+            
 
             <TextView
                 android:id="@+id/textView2"
@@ -1110,19 +1157,31 @@ A Visual Git Guide"
                 android:layout_margin="5dp"
                 android:gravity="center"
                 android:text="get help"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/textView2"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b11"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:layout_marginBottom="25dp"
-                android:gravity="center"
-                android:text="Git User Mailing List
-#git on irc.freenode.net
-http://rogerdudler.github.io/git-guide/"
+                android:layout_height="30dp"
+                android:background="#00000000"
+                android:text="Git User Mailing List"
                 android:textSize="15sp" />
+            <Button
+                android:id="@+id/b12"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#00000000"
+                android:text="#git on irc.freenode.net"
+                android:textSize="15sp" />
+            <Button
+                android:id="@+id/b13"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#00000000"
+                android:text="http://rogerdudler.github.io/git-guide/"
+                android:textSize="15sp" />
+
+           
         </LinearLayout>
     </LinearLayout>
 
