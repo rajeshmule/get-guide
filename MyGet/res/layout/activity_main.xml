@@ -19,7 +19,6 @@
             android:orientation="vertical" >
 
             <ImageView
-                android:id="@+id/imageView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
@@ -27,17 +26,16 @@
                 android:src="@drawable/git" />
 
             <TextView
-                android:id="@+id/textView1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:text="git - the simple guide"
                 android:textSize="30sp"
+                android:textStyle="bold|italic"
                 android:typeface="serif" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -45,7 +43,6 @@
                 android:typeface="serif" />
 
             <ImageView
-                android:id="@+id/imageView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
@@ -69,7 +66,8 @@
                 android:layout_marginTop="75dp"
                 android:gravity="center"
                 android:text="setup"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:textStyle="bold|italic" />
 
             <Button
                 android:id="@+id/bosx"
@@ -128,10 +126,10 @@
                 android:gravity="center"
                 android:text="create a new repository"
                 android:textColor="#FFFFFF"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:textStyle="bold|italic" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -140,7 +138,6 @@
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -152,7 +149,6 @@
                 android:textSize="25sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -175,10 +171,10 @@
                 android:layout_marginTop="75dp"
                 android:gravity="center"
                 android:text="checkout a repository"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:textStyle="bold|italic" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -186,7 +182,6 @@
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -198,7 +193,6 @@
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -206,7 +200,6 @@
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -236,10 +229,10 @@
                 android:gravity="center"
                 android:text="workflow"
                 android:textColor="#FFFFFF"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:textStyle="bold|italic" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -250,7 +243,6 @@
                 android:textSize="15sp" />
 
             <ImageView
-                android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/trees" />
@@ -273,10 +265,10 @@
                 android:gravity="center"
                 android:text="add &amp; commit"
                 android:textColor="#FFFFFF"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:textStyle="bold|italic" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -286,7 +278,6 @@
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -298,7 +289,6 @@
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -310,7 +300,6 @@
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -320,7 +309,6 @@
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -332,7 +320,6 @@
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -358,10 +345,10 @@
                 android:layout_marginTop="75dp"
                 android:gravity="center"
                 android:text="pushing changes"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:textStyle="bold|italic" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -370,7 +357,6 @@
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -382,7 +368,6 @@
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -393,7 +378,6 @@ If you have not cloned an existing repository and want to connect your repositor
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -405,7 +389,6 @@ If you have not cloned an existing repository and want to connect your repositor
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -431,10 +414,10 @@ If you have not cloned an existing repository and want to connect your repositor
                 android:gravity="center"
                 android:text="branching"
                 android:textColor="#FFFFFF"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:textStyle="bold|italic" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -444,13 +427,11 @@ If you have not cloned an existing repository and want to connect your repositor
                 android:textSize="15sp" />
 
             <ImageView
-                android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/branches" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -460,7 +441,6 @@ If you have not cloned an existing repository and want to connect your repositor
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -472,7 +452,6 @@ If you have not cloned an existing repository and want to connect your repositor
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -482,7 +461,6 @@ If you have not cloned an existing repository and want to connect your repositor
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -494,7 +472,6 @@ If you have not cloned an existing repository and want to connect your repositor
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -504,7 +481,6 @@ If you have not cloned an existing repository and want to connect your repositor
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -516,7 +492,6 @@ If you have not cloned an existing repository and want to connect your repositor
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -526,7 +501,6 @@ If you have not cloned an existing repository and want to connect your repositor
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -554,10 +528,10 @@ If you have not cloned an existing repository and want to connect your repositor
                 android:layout_marginTop="75dp"
                 android:gravity="center"
                 android:text="update &amp; merge"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:textStyle="bold|italic" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -566,7 +540,6 @@ If you have not cloned an existing repository and want to connect your repositor
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -578,7 +551,6 @@ If you have not cloned an existing repository and want to connect your repositor
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -588,7 +560,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -600,7 +571,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -609,7 +579,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -621,7 +590,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -630,7 +598,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -659,10 +626,10 @@ to merge another branch into your active branch (e.g. master), use"
                 android:gravity="center"
                 android:text="tagging"
                 android:textColor="#FFFFFF"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:textStyle="bold|italic" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -672,7 +639,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -684,7 +650,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -710,10 +675,10 @@ to merge another branch into your active branch (e.g. master), use"
                 android:layout_marginTop="75dp"
                 android:gravity="center"
                 android:text="log"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:textStyle="bold|italic" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -722,7 +687,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -734,7 +698,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -743,7 +706,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -755,7 +717,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -764,7 +725,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -776,7 +736,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -785,7 +744,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -797,7 +755,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -806,7 +763,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -818,7 +774,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -827,7 +782,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -855,10 +809,10 @@ to merge another branch into your active branch (e.g. master), use"
                 android:layout_marginTop="75dp"
                 android:gravity="center"
                 android:text="replace local changes"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:textStyle="bold|italic" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -867,7 +821,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -879,7 +832,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -888,7 +840,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -897,7 +848,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -909,7 +859,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -938,10 +887,10 @@ to merge another branch into your active branch (e.g. master), use"
                 android:gravity="center"
                 android:text="useful hints"
                 android:textColor="#FFFFFF"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:textStyle="bold|italic" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -951,7 +900,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -963,7 +911,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -973,7 +920,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -985,7 +931,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -995,7 +940,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -1007,7 +951,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -1017,7 +960,6 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -1034,7 +976,6 @@ to merge another branch into your active branch (e.g. master), use"
             android:layout_height="700dp"
             android:layout_marginBottom="1dp"
             android:layout_marginTop="1dp"
-            android:layout_weight="1.02"
             android:background="#F5BCA9"
             android:orientation="vertical" >
 
@@ -1046,60 +987,64 @@ to merge another branch into your active branch (e.g. master), use"
                 android:layout_marginTop="75dp"
                 android:gravity="center"
                 android:text="links &amp; resources"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:textStyle="bold|italic" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:gravity="center"
-                android:text="graphical clients"
+                android:text="@string/graphical_clients"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/b1"
+            <TextView
+                android:id="@+id/text1"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:background="#00000000"
-                android:text="GitX (L) (OSX, open source)"
-                android:textSize="15sp" />
-
-            <Button
-                android:id="@+id/b2"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:background="#00000000"
-                android:text="Tower (OSX)"
-                android:textSize="15sp" />
-
-            <Button
-                android:id="@+id/b3"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:background="#00000000"
-                android:text="Source Tree (OSX &amp; Windows, free)"
-                android:textSize="15sp" />
-
-            <Button
-                android:id="@+id/b4"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:background="#00000000"
-                android:text="GitHub for Mac (OSX, free)"
-                android:textSize="15sp" />
-
-            <Button
-                android:id="@+id/b5"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:background="#00000000"
-                android:text="GitBox (OSX, App Store)"
-                android:textSize="15sp" />
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="15sp" >
+            </TextView>
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="15sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="15sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="15sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="15sp" >
+            </TextView>
+
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -1108,50 +1053,52 @@ to merge another branch into your active branch (e.g. master), use"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/b6"
+            <TextView
+                android:id="@+id/text6"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:background="#00000000"
-                android:text="Git Community Book"
-                android:textSize="15sp" />
-
-            <Button
-                android:id="@+id/b7"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:background="#00000000"
-                android:text="Pro Git"
-                android:textSize="15sp" />
-
-            <Button
-                android:id="@+id/b8"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:background="#00000000"
-                android:text="Think like a git"
-                android:textSize="15sp" />
-
-            <Button
-                android:id="@+id/b9"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:background="#00000000"
-                android:text="GitHub Help"
-                android:textSize="15sp" />
-
-            <Button
-                android:id="@+id/b10"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:background="#00000000"
-                android:text="A Visual Git Guide"
-                android:textSize="15sp" />
-
-            
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="15sp" >
+            </TextView>
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="15sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="15sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="15sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="15sp" >
+            </TextView>
+
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -1159,29 +1106,33 @@ to merge another branch into your active branch (e.g. master), use"
                 android:text="get help"
                 android:textSize="20sp"
                 android:textStyle="bold" />
-            <Button
-                android:id="@+id/b11"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:background="#00000000"
-                android:text="Git User Mailing List"
-                android:textSize="15sp" />
-            <Button
-                android:id="@+id/b12"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:background="#00000000"
-                android:text="#git on irc.freenode.net"
-                android:textSize="15sp" />
-            <Button
-                android:id="@+id/b13"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:background="#00000000"
-                android:text="http://rogerdudler.github.io/git-guide/"
-                android:textSize="15sp" />
 
-           
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="15sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="15sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/text13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="15sp" >
+            </TextView>
         </LinearLayout>
     </LinearLayout>
 
