@@ -38,7 +38,7 @@ public class MainActivity extends ActionBarActivity {
 		TextView tv12 = (TextView) findViewById(R.id.tvtitle12);
 		TextView tv13 = (TextView) findViewById(R.id.tvtitle13);
 
-		// take id for hyperlink to textview
+		// take id for hyperlinks to a textview 
 
 		TextView link1 = (TextView) findViewById(R.id.text1);
 		TextView link2 = (TextView) findViewById(R.id.text2);
