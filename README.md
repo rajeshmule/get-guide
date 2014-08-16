@@ -1,4 +1,4 @@
-get-guide
+git-guide
 =========
 ##You can chack my app 
 ###https://github.com/rajeshmule/git-guide/blob/master/MyGet/bin/MyGet.apk
