@@ -6,9 +6,9 @@ git-guide
 ###OR 
 ![alt tag](https://github.com/rajeshmule/git-guide/blob/master/screenshot/gitqrcode.png)
 
-![alt tag](https://github.com/rajeshmule/git-guide/blob/master/screenshot/1.png)
-![alt tag](https://github.com/rajeshmule/git-guide/blob/master/screenshot/2.png)
-![alt tag](https://github.com/rajeshmule/git-guide/blob/master/screenshot/3.png)
+![alt tag](https://github.com/rajeshmule/git-guide/blob/master/screenshot/g1.png)
+![alt tag](https://github.com/rajeshmule/git-guide/blob/master/screenshot/g2.png)
+![alt tag](https://github.com/rajeshmule/git-guide/blob/master/screenshot/g3.png)
 
 |[:arrow_down: Download](https://github.com/rajeshmule/git-guide/blob/master/MyGet/bin/MyGet.apk?raw=true)|
 -----------------------------------------------------------------------------------------------------------
