@@ -1,4 +1,4 @@
-package com.rajesh.myget;
+package com.rajvaibhav.gitguide;
 
 import android.content.Intent;
 import android.graphics.Typeface;
